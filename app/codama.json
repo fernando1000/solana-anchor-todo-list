@@ -1,0 +1,10 @@
+{
+  "idl": "../target/idl/todo.json",
+  "before": [],
+  "scripts": {
+    "js": {
+      "from": "@codama/renderers-js",
+      "args": [".", { "syncPackageJson": false, "kitImportStrategy": "rootOnly", "erasableSyntax": true }]
+    }
+  }
+}
